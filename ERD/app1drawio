@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="0FTc-N1Mza8leyAN98D3">
+    <mxGraphModel dx="1388" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XNsoJ-jCZ31G4cppRgWY-6" edge="1" parent="1" source="XNsoJ-jCZ31G4cppRgWY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XNsoJ-jCZ31G4cppRgWY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XNsoJ-jCZ31G4cppRgWY-7" edge="1" parent="1" source="XNsoJ-jCZ31G4cppRgWY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XNsoJ-jCZ31G4cppRgWY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XNsoJ-jCZ31G4cppRgWY-8" edge="1" parent="1" source="XNsoJ-jCZ31G4cppRgWY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XNsoJ-jCZ31G4cppRgWY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XNsoJ-jCZ31G4cppRgWY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Users" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XNsoJ-jCZ31G4cppRgWY-9" edge="1" parent="1" source="XNsoJ-jCZ31G4cppRgWY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="XNsoJ-jCZ31G4cppRgWY-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XNsoJ-jCZ31G4cppRgWY-10" edge="1" parent="1" source="XNsoJ-jCZ31G4cppRgWY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="XNsoJ-jCZ31G4cppRgWY-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="270" />
+              <mxPoint x="120" y="470" />
+              <mxPoint x="620" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XNsoJ-jCZ31G4cppRgWY-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Photos" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="XNsoJ-jCZ31G4cppRgWY-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Likes" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="XNsoJ-jCZ31G4cppRgWY-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Comments" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
