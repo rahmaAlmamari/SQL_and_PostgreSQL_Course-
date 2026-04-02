@@ -20,7 +20,7 @@ In this repo, I will summarize and document everything I have learned and unders
 01. [Simple - But Powerful - SQL Statements](SectionOne.md)
 02. [Filtering Records](SectionTwo.md)
 03. [Working with Tables](SectionThree.md)
-04. Relating Records with Joins
+04. [Relating Records with Joins](SectionFour.md)
 05. Aggregation of Records
 06. Working with Large Datasets
 07. Sorting Records
