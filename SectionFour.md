@@ -243,7 +243,7 @@ JOIN users ON users.id = photos.user_id;
 
 ```
 
-[inner join](./images/inner_join.png)
+![inner join](./images/inner_join.png)
 
 **2. Left Outer Join**
 
@@ -255,7 +255,7 @@ FROM photos
 LEFT JOIN users ON users.id = photos.user_id;
 ```
 
-[left join](./images/left_join.png)
+![left join](./images/left_join.png)
 
 **3. Right Outer Join**
 
@@ -269,7 +269,7 @@ RIGHT JOIN users ON users.id = photos.user_id;
 
 ```
 
-[right join](./images/right_join.png)
+![right join](./images/right_join.png)
 
 **4. Full Join**
 
@@ -283,7 +283,7 @@ FULL JOIN users ON users.id = photos.user_id;
 
 ```
 
-[full join](./images/full_join.png)
+![full join](./images/full_join.png)
 
 
 **~~NOTE:~~** the inner join is the defult type of join so if we do not write the type of join we want to use the SQL will think it is inner join
@@ -291,7 +291,7 @@ FULL JOIN users ON users.id = photos.user_id;
 
 ## 4. Does Order Matter?
 
-[left and right join](./images/left_right_join.png)
+![left and right join](./images/left_right_join.png)
 
 **~~NOTE:~~** the order realy effect when we use left or right join but in inner or full join it do not do any changes
 
@@ -300,7 +300,7 @@ FULL JOIN users ON users.id = photos.user_id;
 
 Q: list all url and comment where user id is the same in poth?
 
-[where and join](./images/where_join.png)
+![where and join](./images/where_join.png)
 
 ```sql
 
@@ -311,7 +311,7 @@ WHERE comments.user_id = photos.user_id;
 
 ```
 
-[where and join](./images/where_join2.png)
+![where and join](./images/where_join2.png)
 
 
 ## 6. Three Way Joins
@@ -320,7 +320,7 @@ WHERE comments.user_id = photos.user_id;
 
 Q: list all url, comment and username where user id is the same for all of them?
 
-[three way join](./images/three_way_join.png)
+![three way join](./images/three_way_join.png)
 
 ```sql
 
@@ -331,6 +331,6 @@ JOIN users ON users.id = comments.user_id AND users.id = photos.user_id;
 
 ```
 
-[three way join](./images/three_way_join2.png)
+![three way join](./images/three_way_join2.png)
 
 [Back to read me](README.md)
