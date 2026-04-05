@@ -23,7 +23,7 @@ In this repo, I will summarize and document everything I have learned and unders
 04. [Relating Records with Joins](SectionFour.md)
 05. [Aggregation of Records](SectionFive.md)
 06. [Sorting Records](SectionSix.md)
-07. Unions and Intersections with Sets
+07. [Unions and Intersections with Sets](SectionSeven.md)
 08. Assembling Queries with SubQueries
 09. Selecting Distinct Records
 10. Utility Operators, Keywords, and Functions
