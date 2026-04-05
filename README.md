@@ -22,38 +22,37 @@ In this repo, I will summarize and document everything I have learned and unders
 03. [Working with Tables](SectionThree.md)
 04. [Relating Records with Joins](SectionFour.md)
 05. [Aggregation of Records](SectionFive.md)
-06. Working with Large Datasets
-07. Sorting Records
-08. Unions and Intersections with Sets
-09. Assembling Queries with SubQueries
-10. Selecting Distinct Records
-11. Utility Operators, Keywords, and Functions
-12. Local PostgreSQL Installation
-13. PostgreSQL Complex Datatypes
-14. Database-Side Validation and Constraints
-15. Database Structure Design Patterns
-16. How to Build a 'Like' System
-17. How to Build a 'Mention' System
-18. How to Build a 'Hashtag' System
-19. How to Design a 'Follower' System
-20. Implementing Database Design Patterns
-21. Approaching and Writing Complex Queries
-22. Understanding the Internals of PostgreSQL
-23. A Look at Indexes for Performance
-24. Basic Query Tuning
-25. Advanced Query Tuning
-26. Simple Common Table Expressions
-27. Recursive Common Table Expressions
-28. Simplifying Queries with Views
-29. Optimizing Queries with Materialized Views
-30. Handling Concurrency and Reversibility with Transactions
-31. Managing Database Design with Schema Migrations
-32. Schema vs Data Migrations
-33. Accessing PostgreSQL From API's
-34. Data Access Pattern - Repositories
-35. Security Around PostgreSQL
-36. Fast Parallel Testing
-37. Bonus!
+06. [Sorting Records](SectionSix.md)
+07. Unions and Intersections with Sets
+08. Assembling Queries with SubQueries
+09. Selecting Distinct Records
+10. Utility Operators, Keywords, and Functions
+11. Local PostgreSQL Installation
+12. PostgreSQL Complex Datatypes
+13. Database-Side Validation and Constraints
+14. Database Structure Design Patterns
+15. How to Build a 'Like' System
+16. How to Build a 'Mention' System
+17. How to Build a 'Hashtag' System
+18. How to Design a 'Follower' System
+19. Implementing Database Design Patterns
+20. Approaching and Writing Complex Queries
+21. Understanding the Internals of PostgreSQL
+22. A Look at Indexes for Performance
+23. Basic Query Tuning
+24. Advanced Query Tuning
+25. Simple Common Table Expressions
+26. Recursive Common Table Expressions
+27. Simplifying Queries with Views
+28. Optimizing Queries with Materialized Views
+29. Handling Concurrency and Reversibility with Transactions
+30. Managing Database Design with Schema Migrations
+31. Schema vs Data Migrations
+32. Accessing PostgreSQL From API's
+33. Data Access Pattern - Repositories
+34. Security Around PostgreSQL
+35. Fast Parallel Testing
+36. Bonus!
 
 # Course Link
 
