@@ -291,20 +291,65 @@ WHERE
 ![subquery in where](./images/subquery_where11.png)
 
 
-104. Data Structure with Where Subqueries
-105. Exercise Overview
-Coding Exercise 21: Subquery Where's
-106. Exercise Solution
-107. The Not In Operator with a List
-108. A New Where Operator
-109. Finally Some!
-Quiz 10: Is It A Valid Subquery?
-110. Exercise Overview
-Coding Exercise 22: Practice Your Subqueries!
-111. A Quick Solution
-112. Probably Too Much About Correlated Subqueries
-113. More on Correlated Subqueries
-114. A Select Without a From?
-115. Exercise Overview
-Coding Exercise 23: From-less Selects
-116. Exercise Solution
+## 7. Correlated Subqueries
+
+**A correlated subquery** is a type of subquery that depends on the outer query.
+
+That means:
+
+- The inner query (subquery) uses a value from the outer query.
+- It is executed once for every row processed by the outer query.
+
+**__Example One:__**
+
+![subquery loop](./images/subquery_loop.png)
+
+```sql
+
+SELECT name, department, price
+FROM products AS p1
+WHERE p1.price = (
+ SELECT MAX(price)
+  FROM products AS p2
+  WHERE p1.department = p2.department
+);
+
+```
+
+![subquery loop](./images/subquery_loop2.png)
+
+![subquery loop](./images/subquery_loop3.png)
+
+**__Example Two:__**
+
+![subquery loop](./images/subquery_loop4.png)
+
+```sql
+
+SELECT name, (
+SELECT COUNT(*)
+  FROM orders AS o1
+  WHERE o1.product_id = p1.id
+) AS number_of_order
+FROM products AS p1;
+
+```
+
+![subquery loop](./images/subquery_loop5.png)
+
+## 8. A Select Without a From?
+
+**__NOTE:__** we can write a select with subquery without from or any other SQL key word for the main select and still it will run just fine if the subquery return a single value.
+
+```sql
+
+SELECT (
+  SELECT MAX(price) FROM products
+);
+
+```
+
+![subquery without from](./images/subquery_without_from.png)
+
+
+[Back to read me](README.md)
