@@ -25,7 +25,7 @@ In this repo, I will summarize and document everything I have learned and unders
 06. [Sorting Records](SectionSix.md)
 07. [Unions and Intersections with Sets](SectionSeven.md)
 08. [Assembling Queries with SubQueries](SectionEight.md)
-09. Selecting Distinct Records
+09. [Selecting Distinct Records](SectionNine.md)
 10. Utility Operators, Keywords, and Functions
 11. Local PostgreSQL Installation
 12. PostgreSQL Complex Datatypes
