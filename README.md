@@ -27,8 +27,8 @@ In this repo, I will summarize and document everything I have learned and unders
 08. [Assembling Queries with SubQueries](SectionEight.md)
 09. [Selecting Distinct Records](SectionNine.md)
 10. [Utility Operators, Keywords, and Functions](SectionTen.md)
-11. Local PostgreSQL Installation
-12. PostgreSQL Complex Datatypes
+11. [PostgreSQL as Container in Docker](SectionEleven.md)
+12. [PostgreSQL Complex Datatypes](SectionEleven.md)
 13. Database-Side Validation and Constraints
 14. Database Structure Design Patterns
 15. How to Build a 'Like' System
